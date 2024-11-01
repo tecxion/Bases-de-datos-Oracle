@@ -7,12 +7,14 @@
 
 
   ### INSTALACIÓN E INICIO:
-    - Para iniciar sesoón en sql utilizaremos el comando: sqlplus en cmd.
-    - Introduciremos el usuario y contraseña generados en la instalación de ORACLE SQL.
+  - Para iniciar sesoón en sql utilizaremos el comando: sqlplus en cmd.
+  - Introduciremos el usuario y contraseña generados en la instalación de ORACLE SQL.
 
   ### UNAA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
-   Creación de una Base de Datos:
-      'CREATE DATABASE nombrebd;'
+  - Creación de una Base de Datos.
+        <code> CREATE DATABASE nombrebd; </code>
+  - Creación de una tabla:
+        <code> CREATE TABLE nombretabla </code> 
   
     
 
