@@ -18,9 +18,31 @@ CREATE DATABASE Nombrebd
 ```
   - Creación de una tabla: <br>
 ```
-CREATE TABLE nombretabla ( <br>
- *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
+CREATE TABLE nombretabla (
+ *A continuación escribiriamos los Atributos con el tipo y las restricciones que se explica más adelante*;
 ```
+  -Eliminar una tabla, aunque sirve para usuarios y columnas es el comando DROP, Ej:
+```
+  DROP TABLE Nombretabla;
+```
+  -Modificar Tablas:
+      - Cambiar el nombre a una tabla:
+```
+  RENAME nombreviejo TO nombrenuevo;
+```
+  - Añadir Columna:
+```
+  ALTER TABLE nombretabla ADD nombrecolumna tipo [propiedades];
+```
+
+#### RESTRICCIONES
+  - NOT NULL: Prohibe valores nulos. 
+  - UNIQUE: No se pueden repetir valores.
+  - PRIMARY KEY: Clave Primaria, será not null y unique.
+  - FOREIGN KEY: Claves externas que relacionan tablas.
+  - DEFAULT: Valor por defecto.
+
+
 
   
 
