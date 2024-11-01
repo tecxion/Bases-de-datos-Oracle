@@ -2,8 +2,8 @@
 
 # Aquí publicaré los comandos más importantes que se usan en ORACLE SQL así como ejemplos y otras cosas como la tarea realizada en la clase de BD.
 
-## En el pdf Comandos básicos puedes ver unas capturas de pantalla con la creación de varias tablas y los comandos utilizados, así mismo en este Readme iré dejando los comandos más utilizados y el resumen de SQL ORACLE.
-  [Ejemplo en pdf](/Comandos básicos Tarea2.pdf)
+## *cursiva* En el pdf Comandos básicos puedes ver unas capturas de pantalla con la creación de varias tablas y los comandos utilizados, así mismo en este Readme iré dejando los comandos más utilizados y el resumen de SQL ORACLE.
+  ![Ejemplo en pdf](Comandos básicos Tarea2.pdf)
 
 
   ### INSTALACIÓN E INICIO:
