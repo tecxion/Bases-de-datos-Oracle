@@ -10,11 +10,11 @@
   - Para iniciar sesoón en sql utilizaremos el comando: sqlplus en cmd.
   - Introduciremos el usuario y contraseña generados en la instalación de ORACLE SQL.
 
-  ### UNAA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
-  - Creación de una Base de Datos.
+  ### UNA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
+  - Creación de una Base de Datos.<br>
         <code> CREATE DATABASE nombrebd; </code>
-  - Creación de una tabla:
-        <code> CREATE TABLE nombretabla </code> 
+  - Creación de una tabla: <br>
+        <code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
   
     
 
