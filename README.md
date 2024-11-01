@@ -18,9 +18,10 @@ CREATE DATABASE Nombrebd
 ```
   - Creación de una tabla: <br>
 ```
-CREATE TABLE nombretabla 
+CREATE TABLE nombretabla ( <br>
+ *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
 ```
-(   *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
+
   
 
 
