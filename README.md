@@ -11,6 +11,8 @@
     - Introduciremos el usuario y contraseña generados en la instalación de ORACLE SQL.
 
   ### UNAA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
+   Creación de una Base de Datos:
+      'CREATE DATABASE nombrebd;'
   
     
 
