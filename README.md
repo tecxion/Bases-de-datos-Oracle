@@ -13,12 +13,14 @@
 
   ### UNA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
   - Creación de una Base de Datos.<br>
-        ```bash
-          CREATE DATABASE nombrebd;
-    
+```
+CREATE DATABASE Nombrebd ```
+```
   - Creación de una tabla: <br>
-        ``` <code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
-  
+```
+<code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
+```
 
+  
 
 
