@@ -17,5 +17,11 @@
   - Creación de una tabla: <br>
         ``` <code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
   
-    
+    # Proyecto de ejemplo
+
+Aquí hay un fragmento de código:
+
+```bash
+echo "Hola, mundo"
+
 
