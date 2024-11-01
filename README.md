@@ -13,9 +13,9 @@
 
   ### UNA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
   - Creación de una Base de Datos.<br>
-        '''<code> CREATE DATABASE nombrebd; </code>
+        ´´´<code> CREATE DATABASE nombrebd; </code>
   - Creación de una tabla: <br>
-        ''' <code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
+        ``` <code> CREATE TABLE nombretabla (   </code> *A continuación escribiriamos los Atributos con el tipo y las restricciones que lo explicaré más adelante*
   
     
 
