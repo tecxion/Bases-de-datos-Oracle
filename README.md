@@ -134,9 +134,12 @@ ORDER BY salario_promedio DESC;
  - NOT: devuelve el valor contrario.
 
 #### OPERADORES COMPARACIÓN
- - <: Menor que.                              - <=: Menor o igual que.
- -> : Mayor que.                              - >=: Mayor o igual que.
- -<>: Distinto de                             - = : Igual.
+ - <: Menor que.
+ - <=: Menor o igual que.
+ -> : Mayor que.
+ - >=: Mayor o igual que.
+ -<>: Distinto de
+ - = : Igual.
  - BETWEEN: Intervalo entre 2 valores.
  - LIKE: Comparar.
  - IN: especificar filas.
