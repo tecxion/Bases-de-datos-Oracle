@@ -134,15 +134,22 @@ ORDER BY salario_promedio DESC;
  - NOT: devuelve el valor contrario.
 
 #### OPERADORES COMPARACIÓN
- - <: Menor que.
- - <=: Menor o igual que.
- -> : Mayor que.
- - >=: Mayor o igual que.
- -<>: Distinto de
- - = : Igual.
+ - < : Menor que
+ - \>: Mayor que
+ - <>: Distinto de
+ - <=: Menor o igual
+ - />=: Mayor o igual
+ - = : Igual
  - BETWEEN: Intervalo entre 2 valores.
- - LIKE: Comparar.
- - IN: especificar filas.
+ - LIKE: Para comparar dos valores.
+ - IN: Especificar las filas.
+
+#### FUNCIONES
+ - AVG: Calcula el promedio entre valores de 1 campo.
+ - COUNT: Nº Filas de la selección
+ - SUM: Suma todos los vaores de un atributo determinado.
+ - MAX: Valor más alto.
+ - MIN: Valor más bajo.
 
   
 
