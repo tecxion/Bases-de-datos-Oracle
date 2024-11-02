@@ -1,5 +1,3 @@
-<center>![Base Datos Logos] (./Media_BD/COMANDOS.gif)</center>
-
 ![Base_Datos_Logo](./Media_BD/COMANDOS.gif)
 
 # Aquí publicaré los comandos más importantes que se usan en ORACLE SQL así como ejemplos y otras cosas como la tarea realizada en la clase de BD.
@@ -27,8 +25,8 @@ CREATE TABLE nombretabla (
 ```
   DROP TABLE Nombretabla;
 ```
-  -Modificar Tablas:
-      - Cambiar el nombre a una tabla:
+-Modificar Tablas:
+  - Cambiar el nombre a una tabla:
 ```
   RENAME nombreviejo TO nombrenuevo;
 ```
