@@ -138,7 +138,7 @@ ORDER BY salario_promedio DESC;
  - \>: Mayor que
  - <>: Distinto de
  - <=: Menor o igual
- - />=: Mayor o igual
+ - >=: Mayor o igual
  - = : Igual
  - BETWEEN: Intervalo entre 2 valores.
  - LIKE: Para comparar dos valores.
