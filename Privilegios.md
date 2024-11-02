@@ -1,4 +1,4 @@
-##1. Privilegios del Sistema<br>
+## 1. Privilegios del Sistema<br>
 <br>
 Estos privilegios permiten a los usuarios realizar ciertas operaciones en la base de datos.<br>
 **CREATE SESSION:** Permite al usuario conectarse a la base de datos.<br>
@@ -20,7 +20,7 @@ Estos privilegios permiten a los usuarios realizar ciertas operaciones en la bas
 **DELETE ANY TABLE:** Permite al usuario eliminar registros en tablas de cualquier esquema.<br>
 **EXECUTE ANY PROCEDURE:** Permite al usuario ejecutar procedimientos y funciones en cualquier esquema.<br>
 
-##2. Privilegios de Objeto<br>
+## 2. Privilegios de Objeto<br>
 Estos privilegios permiten a los usuarios realizar acciones en objetos de la base de datos específicos (tablas, vistas, secuencias, etc.).<br>
 <br>
 **SELECT:** Permite al usuario consultar datos en una tabla o vista.<br>
@@ -33,7 +33,7 @@ Estos privilegios permiten a los usuarios realizar acciones en objetos de la bas
 **EXECUTE:** Permite al usuario ejecutar procedimientos o funciones almacenadas.<br>
 **FLASHBACK:** Permite al usuario realizar operaciones de recuperación de datos (como FLASHBACK TABLE).<br>
 
-##3. Privilegios Administrativos<br>
+## 3. Privilegios Administrativos<br>
 Estos privilegios permiten a los usuarios realizar tareas administrativas.<br>
 <br>
 **DBA:** Un rol que otorga casi todos los privilegios de sistema, ideal para administradores de base de datos.<br>
