@@ -12,9 +12,33 @@
   - Introduciremos el usuario y contraseña generados en la instalación de ORACLE SQL.
 
   ### UNA VEZ INICIADO PODEMOS USAR LOS SIGUIENTES COMANDOS:
+
+#### USUARIOS
+  - Crear Usuario y dar contraseña
+```
+  CREATE USER nombreusuario IDENTIFIED BY contraseña;
+```
+  - También podemos añadir el espacio que se le asigna a un usuario y el perfil.
+```
+  CCREATE USER nombreusuario IDENTIFIED BY contraseña
+  DEFAULT TABLESPACE users
+  QUOTA tamañodelespacio ON users
+  PROFILE nombreperfil;
+```
+  - Ver todos los usuarios.
+```
+   DESC SYS.ALL_USERS;
+```
+  - Borrar un usuario
+```
+  DROP USER nombreusuario;
+```
+
+#### BASES DE DATOS.
+
   - Creación de una Base de Datos.<br>
 ```
-CREATE DATABASE Nombrebd
+CREATE DATABASE Nombrebd;
 ```
   - Creación de una tabla: <br>
 ```
@@ -25,7 +49,7 @@ CREATE TABLE nombretabla (
 ```
   DROP TABLE Nombretabla;
 ```
--Modificar Tablas:
+#### Modificar Tablas:
   - Cambiar el nombre a una tabla:
 ```
   RENAME nombreviejo TO nombrenuevo;
@@ -34,6 +58,31 @@ CREATE TABLE nombretabla (
 ```
   ALTER TABLE nombretabla ADD nombrecolumna tipo [propiedades];
 ```
+  - Eliminar Columna:
+```
+  ALTER TABLE nombretabla DROP COLUMN nombrecolumna;
+```
+  - Modificar Columna:
+```
+  ALTER TABLE nombretabla MODIFY nombrecolumna;
+```
+  - Renombrar Columna:
+```
+  ALTER TABLE nombretabla RENAME COLUMN nombreviejocolumna TO nombrenuevocolumna;
+```
+  - Borrar Restricciones:
+```
+  ALTER TABLE nombretabla DROP CONSTRAINT nombrerestriccion;
+```
+  - Modificar Restricción:
+```
+  ALTER TABLE nombretabla RENAME CONSTRAINT nombreviejo TO nombrenuevo;
+```
+  - Activar o Desactivar restricciones:
+```
+  ALTER TABLE nombretabla ENABLE CONSTRAINT Nombrerestriccion;
+  ALTER TABLE nombretabla DISABLE CONSTRAINT Nombrerestriccion;
+```
 
 #### RESTRICCIONES
   - NOT NULL: Prohibe valores nulos. 
@@ -41,6 +90,17 @@ CREATE TABLE nombretabla (
   - PRIMARY KEY: Clave Primaria, será not null y unique.
   - FOREIGN KEY: Claves externas que relacionan tablas.
   - DEFAULT: Valor por defecto.
+
+#### CREACIÓN Y MODIFICACIÓN DE INDICES.
+  - Crear Indice
+```
+  CREATE INDEX nombreindice ON nombretabla (columna1 [tipo1], columna2 [tipo2]...);
+```
+  - Borrar Indice
+```
+  DROP INDEX nombreindice;
+```
+
 
 
 
