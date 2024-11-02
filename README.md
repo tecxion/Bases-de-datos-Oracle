@@ -33,6 +33,13 @@
 ```
   DROP USER nombreusuario;
 ```
+##### Privilegios de los Usuarios
+ - GRANT: concedemos  (añadimos los privilegios) // TO al usuario que se le conceden  // *ALL puede ser todo los privilegios // PUBLIC privilegios a todos los usuarios. Ej:
+```
+ GRANT SELECT, UPDATE, INSERT TO nombreusuario;
+```
+ >[!IMPORTANT]
+>En el siguiente enlace dejo todos los privilegios que se le pueden dar a un usuario. [Leer Privilegios](Privilegios.md)
 
 #### BASES DE DATOS.
 
