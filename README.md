@@ -38,6 +38,11 @@
 ```
  GRANT SELECT, UPDATE, INSERT TO nombreusuario;
 ```
+  - REVOKE: elimina privilegios
+```
+  REVOKE nombreprivilegio TO nombreusuario;
+```
+
  >[!IMPORTANT]
 >En el siguiente enlace dejo todos los privilegios que se le pueden dar a un usuario. [Leer Privilegios](Privilegios.md)
 
@@ -108,8 +113,33 @@ CREATE TABLE nombretabla (
   DROP INDEX nombreindice;
 ```
 
+#### CLAUSULAS
+ - FROM: Especificar Tabla.
+ - WHERE: especificar condiciones que filas que se van a seleccionar.
+ - GROUP BY: Separar filas en grupos especificos.
+ - HAVING: expresar condición de cada grupo.
+ - ORDER BY: Ordenar filas por orden específico.
+Ejemplo:
+```
+SELECT departamento_id, AVG(salario) AS salario_promedio
+FROM empleados
+WHERE salario > 3000
+GROUP BY departamento_id
+HAVING AVG(salario) > 5000
+ORDER BY salario_promedio DESC;
+```
+#### OPERADORES
+ - AND: evalua 2 condiciones, devuelve TRUE si ambos son TRUE.
+ - OR: evalua 2 condiciones, devuelve TRUE si una de las dos es TRUE.
+ - NOT: devuelve el valor contrario.
 
-
+#### OPERADORES COMPARACIÓN
+ - <: Menor que.                              - <=: Menor o igual que.
+ - >: Mayor que.                              - >=: Mayor o igual que.
+ -<>: Distinto de                             - = : Igual.
+ - BETWEEN: Intervalo entre 2 valores.
+ - LIKE: Comparar.
+ - IN: especificar filas.
 
   
 
