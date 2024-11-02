@@ -1,7 +1,7 @@
 ## 1. Privilegios del Sistema<br>
 <br>
 Estos privilegios permiten a los usuarios realizar ciertas operaciones en la base de datos.<br>
-__CREATE SESSION:__  Permite al usuario conectarse a la base de datos.<br>
+- **CREATE SESSION:**  Permite al usuario conectarse a la base de datos.
 CREATE TABLE: Permite al usuario crear tablas en su propio esquema.<br>
 CREATE VIEW: Permite al usuario crear vistas en su propio esquema.<br>
 CREATE PROCEDURE: Permite al usuario crear procedimientos y funciones almacenadas.<br>
