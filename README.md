@@ -135,7 +135,7 @@ ORDER BY salario_promedio DESC;
 
 #### OPERADORES COMPARACIÓN
  - <: Menor que.                              - <=: Menor o igual que.
- - >: Mayor que.                              - >=: Mayor o igual que.
+ -> : Mayor que.                              - >=: Mayor o igual que.
  -<>: Distinto de                             - = : Igual.
  - BETWEEN: Intervalo entre 2 valores.
  - LIKE: Comparar.
