@@ -20,7 +20,7 @@
 ```
   - También podemos añadir el espacio que se le asigna a un usuario y el perfil.
 ```
-  CCREATE USER nombreusuario IDENTIFIED BY contraseña
+  CREATE USER nombreusuario IDENTIFIED BY contraseña
   DEFAULT TABLESPACE users
   QUOTA tamañodelespacio ON users
   PROFILE nombreperfil;
