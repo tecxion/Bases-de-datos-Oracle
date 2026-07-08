@@ -1,3 +1,7 @@
+# PRIVILEGIOS
+
+Lista de referencia de los privilegios que se pueden conceder con `GRANT` y retirar con `REVOKE`. La sintaxis está en [Usuarios y privilegios](02-usuarios-y-privilegios.md).
+
 ## 1. Privilegios del Sistema<br>
 <br>
 Estos privilegios permiten a los usuarios realizar ciertas operaciones en la base de datos.<br>
